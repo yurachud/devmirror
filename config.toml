@@ -6,7 +6,7 @@ summaryLength = 25
 copyright = "John Doe - All rights reserved"
 enableEmoji = true
 publishDir = "public"
-disqusShortname = "yurychudnovsky"
+disqusShortname = "devmirror"
 googleAnalytics = "UA-142145414-1"
 
 [params]
