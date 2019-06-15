@@ -1,9 +1,9 @@
 baseurl = "https://devmirror.com/" 
 languageCode = "en-us"
-title = "Mediumish"
+title = "Devs mirror"
 theme = "mediumish"
 summaryLength = 25
-copyright = "John Doe - All rights reserved"
+copyright = ""
 enableEmoji = true
 publishDir = "public"
 disqusShortname = "devmirror"
@@ -21,7 +21,7 @@ googleAnalytics = "UA-142145414-1"
 
 [params.index]
   picture = "/images/author.png"
-  title = "John Doe"
+  title = "Yury Chudnovsky"
   subtitle = "I'm a unique placeholder. Working here and there!"
   mdtext = '''
 Currently trying to get this blog running, still don't know what the blog will be about!\
@@ -31,12 +31,12 @@ Currently trying to get this blog running, still don't know what the blog will b
   alertbar = false
 
 [params.social]
-  github = "<username>"
-  linkedin = "<username>"
-  xing = "<username>"
-  medium = "<username>"
-  twitter = "<username>"
-  instagram = "<username>"
+  #github = "<username>"
+  linkedin = "yury-chudnovsky"
+  #xing = "<username>"
+  #medium = "<username>"
+  twitter = "yurachud"
+  #instagram = "<username>"
 
 ## Main Menu
 [[menu.main]]
