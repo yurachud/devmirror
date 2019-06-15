@@ -2,3 +2,6 @@
 	path = public
 	url = git@github.com:yurachud/devmirror.github.io.git
 	branch = master
+[submodule "themes/themes/mediumish"]
+	path = themes/themes/mediumish
+	url = https://github.com/lgaida/mediumish-gohugo-theme.git
