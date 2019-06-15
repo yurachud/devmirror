@@ -1,67 +1,56 @@
-## Basic Configuration
-
 baseurl = "https://devmirror.com/" 
-builddrafts = false
-canonifyurls = false
-languageCode = "en-US"
+languageCode = "en-us"
+title = "Mediumish"
+theme = "mediumish"
+summaryLength = 25
+copyright = "John Doe - All rights reserved"
+enableEmoji = true
+publishDir = "docs"
+#disqusShortname = "your-shortname-here"
+#googleAnalytics = "UA-1XXXXXXX1-1"
 
-contentdir = "content"
-layoutdir = "layouts"
-publishdir = "public"
-
-author = "Erlich Bachman"
-title = "Erlich Bachman"
-
-theme = "hugo-goa"
-
-## Hugo Built-in Features
-disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
-googleAnalytics = "XYZ"
-enableRobotsTXT = true
-
-## Site Settings
 [params]
-author = "Erlich Bachman"
-intro = "Startup Guru Extraordinaire"
-description = "Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\""
-authorimage = "headshot.jpg"
-dateformat = "Jan 2, 2006"
+  logo = "/images/logo.png"
+  description ="the clean blog!"
+  #mailchimp = "you can provide a mailchimp-link here"
 
-## Site Meta Settings
-[params.meta]
-description = "Simple minimalist theme"
-keywords = "minimalist,blog,goa,hugo,developer"
+[params.author]
+  name = "John Doe"
+  thumbnail = "/images/author.png"
+  description = "Creator of this blog."
 
-## Social Accounts
+[params.index]
+  picture = "/images/author.png"
+  title = "John Doe"
+  subtitle = "I'm a unique placeholder. Working here and there!"
+  mdtext = '''
+Currently trying to get this blog running, still don't know what the blog will be about!\
+**This textblock is a demonstration of the mdtext-param.**\
+### This is a markdown heading
+'''
+  alertbar = false
+
 [params.social]
-github = "<username>"
-instagram = "<username>"
-linkedin = "<username>"
-twitter = "<username>"
-facebook = "<username>"
-google = "<username>"
-stackoverflow = "<username>"
-email = "you@example.com"
-
-## Extras
-[params.extra]
-copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
-poweredby = true
-hightlightjs = true
+  github = "<username>"
+  linkedin = "<username>"
+  xing = "<username>"
+  medium = "<username>"
+  twitter = "<username>"
+  instagram = "<username>"
 
 ## Main Menu
 [[menu.main]]
-    name = "blog"
+    name = "Blog"
     weight = 100
     identifier = "blog"
-    url = "/blog/"
+    url = "/blog"
 [[menu.main]]
-    name = "about"
+    name = "About Me"
     identifier = "about"
     weight = 200
-    url = "/about/"
+    url = "/"
 [[menu.main]]
-    name = "coderag"
-    identifier = "coderag"
-    weight = 300
-    url = "/coderag/"
+    name = "Imprint"
+    identifier = "imprint"
+    weight = 200
+    url = "/static/imprint"
