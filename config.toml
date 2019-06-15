@@ -43,7 +43,7 @@ Currently trying to get this blog running, still don't know what the blog will b
     name = "Blog"
     weight = 100
     identifier = "blog"
-    url = "/blog"
+    url = "/"
 [[menu.main]]
     name = "About"
     identifier = "about"
