@@ -6,8 +6,8 @@ summaryLength = 25
 copyright = "John Doe - All rights reserved"
 enableEmoji = true
 publishDir = "public"
-#disqusShortname = "your-shortname-here"
-#googleAnalytics = "UA-142145414-1"
+disqusShortname = "yurychudnovsky"
+googleAnalytics = "UA-142145414-1"
 
 [params]
   logo = "/images/logo.png"
@@ -15,7 +15,7 @@ publishDir = "public"
   #mailchimp = "you can provide a mailchimp-link here"
 
 [params.author]
-  name = "John Doe"
+  name = "Yury Chudnovsky"
   thumbnail = "/images/author.png"
   description = "Creator of this blog."
 
