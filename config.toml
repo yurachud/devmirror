@@ -17,16 +17,17 @@ googleAnalytics = "UA-142145414-1"
 [params.author]
   name = "Yury Chudnovsky"
   thumbnail = "/images/author.png"
-  description = "Creator of this blog."
+  description = "Principal Developer"
 
 [params.index]
   picture = "/images/author.png"
-  title = "Yury Chudnovsky"
-  subtitle = "I'm a unique placeholder. Working here and there!"
+  title = "Hi, my name is Yury Chudnovsky"
+  subtitle = "I'm a problem solver for IT companies"
   mdtext = '''
-Currently trying to get this blog running, still don't know what the blog will be about!\
-**This textblock is a demonstration of the mdtext-param.**\
-### This is a markdown heading
+I'm a software engineer, architect, IT/HR manager and you name it \
+with about 10 years of professional expirience in gaming, fintech, e-commerce industries
+
+### Follow me:
 '''
   alertbar = false
 
