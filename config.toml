@@ -16,11 +16,11 @@ googleAnalytics = "UA-142145414-1"
 
 [params.author]
   name = "Yury Chudnovsky"
-  thumbnail = "/images/author.png"
+  thumbnail = "/images/author2.png"
   description = "Principal Developer"
 
 [params.index]
-  picture = "/images/author.png"
+  picture = "/images/author2.png"
   title = "Yury Chudnovsky"
   subtitle = "I'm a problem solver for IT companies"
   mdtext = '''
