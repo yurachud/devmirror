@@ -2,6 +2,12 @@
     {{ with .Site.Params.social.github }}
     <a href="https://github.com/{{.}}"><i class="fab fa-github social-icon" aria-hidden="true"></i></a>
     {{ end }}
+    {{ with .Site.Params.social.facebook }}
+    <a href="https://facebook.com/{{.}}"><i class="fab fa-facebook social-icon" aria-hidden="true"></i></a>
+    {{ end }}
+    {{ with .Site.Params.social.goodreads }}
+    <a href="https://goodreads.com/{{.}}"><i class="fab fa-goodreads social-icon" aria-hidden="true"></i></a>
+    {{ end }}
     {{ with .Site.Params.social.linkedin }}
     <a href="https://linkedin.com/in/{{.}}"><i class="fab fa-linkedin social-icon" aria-hidden="true"></i></a>
     {{ end }}
