@@ -21,25 +21,20 @@ googleAnalytics = "UA-142145414-1"
 
 [params.index]
   picture = "/images/author.png"
-  title = "Hi, my name is Yury Chudnovsky"
+  title = "Yury Chudnovsky"
   subtitle = "I'm a problem solver for IT companies"
   mdtext = '''
-I'm a software engineer, architect, IT/HR manager and you name it \
+I'm a software engineer, architect, IT/hiring manager and you name it \
 with about 10 years of professional expirience in gaming, fintech, e-commerce industries
-
-### Follow me:
+##### Follow me:
 '''
   alertbar = false
 
 [params.social]
-  #github = "<username>"
   linkedin = "yury-chudnovsky"
-  #xing = "<username>"
-  #medium = "<username>"
   facebook = "yury.chudnovsky"
   twitter = "yurachud"
   goodreads = "jurijsc"
-  #instagram = "<username>"
 
 ## Main Menu
 [[menu.main]]
