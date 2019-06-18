@@ -17,7 +17,7 @@ googleAnalytics = "UA-142145414-1"
 [params.author]
   name = "Yury Chudnovsky"
   thumbnail = "/images/author2.png"
-  description = "Principal Developer"
+  description = "Head of IT @ Printify"
 
 [params.index]
   picture = "/images/author2.png"
